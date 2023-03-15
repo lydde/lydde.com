@@ -1,0 +1,52 @@
+---
+permalink: "/.well-known/did.json"
+layout: null
+---
+{
+  "id": "did:web:lydde.com",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:lydde.com"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://lydde.com/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/0cf09582-bd44-4a6b-b87c-c2ae769192ec"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#7fa75d1ef1fe47258ebe45d23c38d91cvcSigningKey-b16bf",
+      "controller": "did:web:lydde.com",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "6VixJVyrsGHKazDew9KWlkl5QjSHu8Q7a_gBjICxfW0",
+        "y": "_whSX0Pmb5tVci-1V2hYTRPEg-kKgwoFK7P959DPBuI"
+      }
+    }
+  ],
+  "authentication": [
+    "#7fa75d1ef1fe47258ebe45d23c38d91cvcSigningKey-b16bf"
+  ],
+  "assertionMethod": [
+    "#7fa75d1ef1fe47258ebe45d23c38d91cvcSigningKey-b16bf"
+  ]
+}
