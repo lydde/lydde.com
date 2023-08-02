@@ -1,0 +1,16 @@
+# Update on the Coronavirus situation
+This has been an unprecedented few days in an already unprecedented time.  As the world works to limit the spread of the coronavirus pandemic, a sweeping set of societal and cultural changes are now impacting all of our daily lives. We’d like to take a moment to update all of you on what we’re doing at Lydde to ensure the health and wellbeing of our employees, while also making sure that everyone is rely on our products and services.
+
+Since January, we’ve had a global taskforce closely monitoring the evolving situation with coronavirus and working daily to respond to the changing needs of our people in real time. We’ve been constantly assessing the risk of exposure in the regions where we have offices, guided by the recommendations from local and federal health authorities, and the information we’re getting from our own teams.
+
+We implemented global travel restrictions in late February, eliminating all travel except very rare cases, and have been working with local leadership at each office and studio to make the best decisions for our people with the information we have. At the same time, we’ve been planning for business continuity, ensuring that our people have the support and resources they need to work from home.  Our IT and Security teams have scaled up our remote working systems, so that our studio and development work can be continued from home, in addition to standard business operations.
+
+As of today, we have transitioned to strongly recommending that all our employees work from home until October 1st, to help limit potential exposure to coronavirus and minimize the social spread of the illness.  Many of these sites, including our headquarter, were already giving employees the option to work from home, and now is the time for greater measures.  We will only have very limited staff for business-critical functions at these sites — everyone else will be working remotely.  Our senior leaders, site leaders and IT teams have been working together to help us prepare for this. 
+
+We’ve also taken steps to ensure that the vendors and contractors that provide services on-site at our facilities will continue to be paid, even if they’re not able to work from home in their roles.
+
+As we take these steps for our employees,  we’re also very focused on minimizing any potential for disruption to our players.  We are confident in our continuity plans.  We don’t anticipate major changes in our products or services as a result of our teams working from home, but we’re learning through this process as well and patience will be key.  We’re constantly talking and working with our teams across the world to evolve with the situation.
+
+These are challenging times for everyone.  We’re working to look after our employees and their families, and make sure we’re doing the right and responsible things to fight this pandemic illness.  We have amazing technology teams that are making it possible for all of this to happen, and we’re deeply thankful.  We may be doing it from our homes around the world, but we’re doing everything we can to be here for you.
+
+Be safe and be well, everyone.
