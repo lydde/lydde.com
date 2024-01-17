@@ -14,7 +14,7 @@
 #
 # Build settings
 #
-theme: jekyll-theme-lydde
+remote_theme: jekyll-theme-lydde
 
 #
 # Site
