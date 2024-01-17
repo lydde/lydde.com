@@ -1,4 +1,6 @@
-# Privacy Policy
+---
+title: Privacy Policy
+---
 We understand that privacy is an important issue for users of Lydde products and services, and visitors to the Lydde websites and its related domains. Any personal information provided by you (whether through this website, in person, in connection with our products or services, or otherwise) will be treated by all of the Lydde group companies in accordance with applicable data protection and privacy laws (including the General Data Protection Regulation, EU Regulation 2016/679, or “GDPR”), and in accordance with this Privacy Policy.
 
 To the extent that Lydde websites includes third party advertisements or links, the privacy policy of that advertiser or the owner of that link governs the use of any personal information collected during your access to that advertisement or link. The following information is designed to help you understand what personal information we collect, and how we handle and use that information.

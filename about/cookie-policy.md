@@ -1,6 +1,7 @@
-# Cookie Policy
-Just like many websites, lyddegroup.com (and all our websites) uses cookies and related technologies to improve the way our site functions for visitors. It is up to you whether to accept cookies.
-Just like many websites, lyddegroup.com (and all our websites) uses cookies and related technologies to improve the way our site functions for visitors. It is up to you whether to accept cookies. If you want to opt out (that is, not allow cookies) at any time, all you need to do is change your browser settings.
+---
+title: Cookie Policy
+---
+Just like many websites, lydde.com (and all our websites) uses cookies and related technologies to improve the way our site functions for visitors. It is up to you whether to accept cookies. If you want to opt out (that is, not allow cookies) at any time, all you need to do is change your browser settings.
 
 ## What are cookies and what do they do?
 Cookies are small text files that websites store on your computer, mobile device or tablet, for varying periods. They improve your browser experience, provide statistical analysis and advanced functions, simplify logging in and personalization, and are sometimes used for targeted advertising. Unless you are logging in (for example, to comment on a blog post) the cookies here are never used to identify you personally. We use cookies to compile statistical information and analyze how people use our website. This helps us provide more functionality and makes our site easier and better to use. There are two main types of cookies: “session” cookies and “persistent” cookies.

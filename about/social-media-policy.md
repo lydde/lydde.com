@@ -1,5 +1,7 @@
-# Social Media usage Policy
-Lydde may host blogs or social media channels open to the general public. Objective, intelligent and well-written comments are welcomed. Please avoid comments and posts that are irrelevant, or which could be offensive, or which contain improper language, and try to keep comments and replies on topic. Any comments that appear to be spam will be deleted.
+---
+title: Social Media Policy
+---
+LYDDE may host blogs or social media channels open to the general public. Objective, intelligent and well-written comments are welcomed. Please avoid comments and posts that are irrelevant, or which could be offensive, or which contain improper language, and try to keep comments and replies on topic. Any comments that appear to be spam will be deleted.
 
 ## Everyone can read your posts
 Your comments can be accessed by anyone. Your posts could also be used by Lydde in other contexts, such as on other parts of the website.

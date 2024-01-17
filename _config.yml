@@ -1,5 +1,5 @@
 # ---
-# Welcome to LYDDE Group Jekyll!
+# Welcome to LYDDE Group Jekyll Theme!
 # Version : 1.0.0
 # ---
 # This site is a bootstrap 5.3 theme for Jekyll engine
@@ -16,37 +16,74 @@
 #
 theme: jekyll-theme-lydde
 
-# 
-# Site settings
-# 
+#
+# Site
+#
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 #
-title: LYDDE
-email: your-email@example.com
-tagline: Game developer unleashed 
-logo: "/assets/logo.png"
-favicon: "assets/icons/favicon.ico"
-language: en
-locale: en_US
-description: >- # this means to ignore newlines until "timezone:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-timezone: Europe/Paris
+title: LYDDE # Your website title must be less than 50 char for SEO
+description: >- # this means to ignore newlines until next entree
+  We are a digital consulting company that helps businesses transform and thrive in the digital age. 
+  We offer strategic advice, innovative solutions and expert guidance to help you achieve your goals and overcome your challenges.
 
 #
-# Hosting Settings
+# Brand
 #
-permalink: /:title
-baseurl: "" # the subpath of your site, e.g. /blog
+logo: "/assets/logo.png"
+favicon: "assets/icons/favicon.ico"
+tagline: Business and Tech Consulting
+
+#
+# Localization
+#
+timezone: Europe/Paris
+language: en
+locale: en_US
+
+#
+# Hosting
+#
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /news/:categories/:title # the subpath of your posts, e.g. /news
+
+#
+# Collections
+#
+collections:
+  categories:
+    output: true
+    
+#
+# Defaults values
+#
+defaults:
+# all posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/images/post.jpeg
+      author: author-1
+# all pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      image: /assets/images/page.jpeg
 
 #
 # Plugins used
 #
 plugins:
-  - jekyll-feed
+  - jekyll-relative-links
+  - jekyll-github-metadata
+  - jekyll-feed  
+  - jekyll-mentions
+  - jekyll-redirect-from
 
 #
 # Plugin settings

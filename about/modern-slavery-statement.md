@@ -1,4 +1,6 @@
-# Modern slavery and human trafficking statement
+---
+title: Modern slavery and human trafficking statement
+---
 Lydde Group and subsidiaries are committed to human rights, and responsible sourcing and engagement with its suppliers and other stakeholders. Conducting business responsibly is the foundation of Lydde’s commitment to sustainability and corporate responsibility. We believe that operating our business with integrity, transparency and responsibility is critical to maintain trust and credibility. We will continually work to improve and strengthen our business practices, with a focus on transparency, integrity and building trust. This approach enhances risk management and the ability to respond proactively to issues as they arise.
 
 Our highly diverse supply chain com­prises global, local and regional suppliers in many countries which provide a wide range of products and services and consultancy services.
