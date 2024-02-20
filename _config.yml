@@ -1,7 +1,7 @@
-# ---
-# Welcome to LYDDE Group Jekyll Theme!
+#
+# Welcome to LYDDE Group Website system
 # Version : 1.0.0
-# ---
+#
 # This site is a bootstrap 5.3 theme for Jekyll engine
 # This config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely edit after that.
@@ -12,48 +12,57 @@
 #
 
 #
-# Build settings
+# Theme
+#
+# Theme can be used from GEM Package or from GitHub Repos
+# Default and recommanded usage is to rely on GitHub, to get latest version, even unpublished on GEM
+# If you rely on GEM, uncomment theme and comment remote_theme
 #
 remote_theme: lydde/jekyll-lydde-theme
 
 #
-# Site
+# Localization
 #
+# These are used to assist search engine and browser exposing the right language to user.
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+#
+language: en # The language of the webpage
+locale: en_US # The language of the webpage
+timezone: Europe/Paris # Your website timezone
+
+#
+# Hosting
+#
+url: "https://lydde.com" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /news/:categories/:title # the subpath of your posts, e.g. /news
+
+# 
+# Site
+# 
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 #
-title: LYDDE # Your website title must be less than 50 char for SEO
-description: >- # this means to ignore newlines until next entree
+title: LYDDE # Your website title (must be less than 50 char for SEO)
+tagline: Business and Tech Consulting # Used in Title (should be limited to 50 char for SEO)
+description: >- # used by SEO meta description and in feed.xml
   We are a digital consulting company that helps businesses transform and thrive in the digital age. 
   We offer strategic advice, innovative solutions and expert guidance to help you achieve your goals and overcome your challenges.
 
 #
 # Brand
 #
-logo: "/assets/logo.png"
-favicon: "assets/icons/favicon.ico"
-tagline: Business and Tech Consulting
-
+# These are used to marketize your brand. If you look in the HTML files,
+# you will see them in the header and the NavMenu.
 #
-# Localization
-#
-timezone: Europe/Paris
-language: en
-locale: en_US
-
-#
-# Hosting
-#
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /news/:categories/:title # the subpath of your posts, e.g. /news
+logo: "/assets/logo.png" # if not set, default theme logo will be applied
+favicon: "assets/icons/favicon.ico" # if not set, default theme icon will be applied
 
 #
 # Collections
 #
 collections:
-  categories:
-    output: true
     
 #
 # Defaults values
@@ -61,12 +70,12 @@ collections:
 defaults:
 # all posts
   - scope:
-      path: ""
+      path: "_posts" # An empty string here means all files in the project
       type: posts
     values:
       layout: post
       image: /assets/images/post.jpeg
-      author: author-1
+      author: default
 # all pages
   - scope:
       path: ""
@@ -74,33 +83,44 @@ defaults:
     values:
       layout: page
       image: /assets/images/page.jpeg
-
+      
 #
-# Plugins used
+# Plugins
 #
 plugins:
-  - jekyll-relative-links
-  - jekyll-github-metadata
-  - jekyll-feed  
-  - jekyll-mentions
-  - jekyll-redirect-from
+  - jekyll-relative-links   #https://github.com/benbalter/jekyll-relative-links
+  - jekyll-redirect-from    #https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-remote-theme     #https://github.com/benbalter/jekyll-remote-theme
 
 #
 # Plugin settings
 #
 relative_links:
+  enabled:     true
   collections: true
 
+compress_html: # Details on https://jch.penibelst.de/
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+    
 #
 # Files excluded
 #
 exclude:
   - readme.md
+  - LICENSE
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - "*.gem"
+  - "*.gemspec"
   - node_modules/
   - vendor/bundle/
   - vendor/cache/

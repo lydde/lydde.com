@@ -1,0 +1,10 @@
+# Theme
+color:
+  primary: "#18A689"
+  secondary: "#888888"
+  background: "#fff"
+  text: "#111"
+font:
+  import: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+  headings: "Open Sans"
+  text: "Open Sans"

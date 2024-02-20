@@ -1,14 +1,12 @@
 ---
 layout: home
-image: /assets/images/games.jpeg
+image: /assets/images/home-mountains.jpg
+title: Make Your Life Easier
+subtitle: We work to
+description: LYDDE Group addresses professional and consumer segments with solutions that improve quality of life.
 action: 
     title: Discover our Brands
+    description: We develop and manufacture innovative and intelligent solutions.
     link: "/brands/"
 footer: false
 ---
-We Work to
-# Make Your Life Easier
-LYDDE Group addresses professional and consumer segments with solutions that improve quality of life.
-
-Our brands are all based on the group’s core engineering expertise and technologies.
-We develop and manufacture innovative and intelligent solutions.
