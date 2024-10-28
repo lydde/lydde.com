@@ -1,0 +1,22 @@
+{
+    "id": 1,
+    "url": "https://lydde.com",
+    "title": "LYDDE",
+    "tagline": "Business and Technology Solutions",
+    "description": "We are a digital consulting company that helps businesses transform and thrive in the digital age. We offer strategic advice, innovative solutions and expert guidance to help you achieve your goals and overcome your challenges.",
+    "isActive": true,
+    "languages": [
+        "en",
+        "fr"
+    ],
+    "timezone": "Europe/Paris",
+    "domains": [
+        {
+            "primary": "lydde.com",
+            "redirects": [
+                "lyddegroup.com",
+                "lydde.group"
+            ]
+        }
+    ]
+}

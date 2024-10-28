@@ -38,9 +38,9 @@ url: "https://lydde.com" # the base hostname & protocol for your site, e.g. http
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /news/:categories/:title # the subpath of your posts, e.g. /news
 
-# 
+#
 # Site
-# 
+#
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 #
@@ -62,13 +62,13 @@ favicon: "assets/icons/favicon.ico" # if not set, default theme icon will be app
 #
 # Collections
 #
-collections:
-    
+#collections:
+
 #
 # Defaults values
 #
 defaults:
-# all posts
+  # all posts
   - scope:
       path: "_posts" # An empty string here means all files in the project
       type: posts
@@ -76,27 +76,27 @@ defaults:
       layout: post
       image: /assets/images/post.jpeg
       author: default
-# all pages
+  # all pages
   - scope:
       path: ""
       type: pages
     values:
       layout: page
       image: /assets/images/page.jpeg
-      
+
 #
 # Plugins
 #
 plugins:
-  - jekyll-relative-links   #https://github.com/benbalter/jekyll-relative-links
-  - jekyll-redirect-from    #https://github.com/jekyll/jekyll-redirect-from
-  - jekyll-remote-theme     #https://github.com/benbalter/jekyll-remote-theme
+  - jekyll-relative-links #https://github.com/benbalter/jekyll-relative-links
+  - jekyll-redirect-from #https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-remote-theme #https://github.com/benbalter/jekyll-remote-theme
 
 #
 # Plugin settings
 #
 relative_links:
-  enabled:     true
+  enabled: true
   collections: true
 
 compress_html: # Details on https://jch.penibelst.de/
@@ -107,7 +107,7 @@ compress_html: # Details on https://jch.penibelst.de/
   blanklines: false
   ignore:
     envs: [development]
-    
+
 #
 # Files excluded
 #
