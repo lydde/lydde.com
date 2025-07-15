@@ -1,22 +1,226 @@
 {
-    "id": 1,
-    "url": "https://lydde.com",
-    "title": "LYDDE",
-    "tagline": "Business and Technology Solutions",
-    "description": "We are a digital consulting company that helps businesses transform and thrive in the digital age. We offer strategic advice, innovative solutions and expert guidance to help you achieve your goals and overcome your challenges.",
-    "isActive": true,
-    "languages": [
-        "en",
-        "fr"
+  "id": 1,
+  "url": "https://lydde.com",
+  "title": "LYDDE",
+  "tagline": "Business and Technology Solutions",
+  "description": "We are a digital consulting company that helps businesses transform and thrive in the digital age. We offer strategic advice, innovative solutions and expert guidance to help you achieve your goals and overcome your challenges.",
+  "isActive": true,
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "timezone": "Europe/Paris",
+  "domains": [
+    {
+      "primary": "lydde.com",
+      "redirects": [
+        "lyddegroup.com",
+        "lydde.group"
+      ]
+    }
+  ],
+  "company": {
+    "id": "1",
+    "name": "LYDDE Group",
+    "address": "9 Rue LAMARTINE",
+    "city": "AMIENS",
+    "zip": "80000",
+    "country": "France",
+    "email": "contact@lydde.com",
+    "phone": "+33 3 00 00 00 00",
+    "registrationNumber": "123456789",
+    "socialProfiles": {
+      "linkedin": "https://linkedin.com/company/lydde",
+      "twitter": "https://twitter.com/lydde",
+      "github": "https://github.com/lydde"
+    },
+    "foundedYear": 2010
+  },
+  "brand": {
+    "logo": {
+      "primary": "/assets/logo.png",
+      "alternative": "/assets/logo-alt.png",
+      "darkMode": "/assets/logo-dark.png",
+      "favicon": "assets/icons/favicon.ico"
+    },
+    "colors": {
+      "primary": "#1E88E5",
+      "secondary": "#212121",
+      "accent": "#FF5722",
+      "background": "#FFFFFF",
+      "text": "#333333"
+    },
+    "typography": {
+      "headings": "Montserrat, sans-serif",
+      "body": "Open Sans, sans-serif",
+      "scale": 1.2
+    },
+    "voice": "Professional and innovative",
+    "values": [
+      "Innovation",
+      "Trust",
+      "Excellence",
+      "Collaboration"
     ],
-    "timezone": "Europe/Paris",
-    "domains": [
+    "assets": {
+      "patterns": "/assets/patterns/",
+      "illustrations": "/assets/illustrations/",
+      "icons": "/assets/icons/"
+    },
+    "guidelines": "/brand/guidelines.pdf"
+  },
+  "website": {
+    "sections": [
+      "home",
+      "services",
+      "about",
+      "blog",
+      "contact"
+    ],
+    "content": {
+      "blog": {
+        "enabled": true,
+        "postsPerPage": 10,
+        "categories": [
+          "Technology",
+          "Business",
+          "Innovation"
+        ],
+        "featuredPosts": 3
+      },
+      "services": {
+        "enabled": true,
+        "layout": "grid",
+        "showPricing": false
+      },
+      "team": {
+        "enabled": true,
+        "layout": "cards"
+      },
+      "testimonials": {
+        "enabled": true,
+        "display": "carousel"
+      },
+      "caseStudies": {
+        "enabled": true,
+        "layout": "detailed"
+      }
+    },
+    "features": {
+      "hasNewsletterSignup": true,
+      "hasContactForm": true,
+      "hasTestimonials": true,
+      "hasCaseStudies": true
+    },
+    "navigation": {
+      "mainMenu": [
         {
-            "primary": "lydde.com",
-            "redirects": [
-                "lyddegroup.com",
-                "lydde.group"
-            ]
+          "name": "Home",
+          "url": "/"
+        },
+        {
+          "name": "Services",
+          "url": "/services/"
+        },
+        {
+          "name": "About",
+          "url": "/about/"
+        },
+        {
+          "name": "Blog",
+          "url": "/blog/"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact/"
         }
-    ]
+      ],
+      "footerMenu": [
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy/"
+        },
+        {
+          "name": "Terms of Service",
+          "url": "/terms/"
+        },
+        {
+          "name": "Sitemap",
+          "url": "/sitemap.xml"
+        }
+      ]
+    },
+    "localizations": {
+      "en": {
+        "path": "/",
+        "active": true
+      },
+      "fr": {
+        "path": "/fr/",
+        "active": true
+      }
+    }
+  },
+  "theme": {
+    "remote_theme": "lydde/jekyll-lydde-theme",
+    "plugins": [
+      "jekyll-relative-links",
+      "jekyll-redirect-from",
+      "jekyll-remote-theme"
+    ],
+    "layout": "default",
+    "components": {
+      "header": "standard",
+      "footer": "expanded"
+    }
+  },
+  "seo": {
+    "locale": "en_US",
+    "analytics": {
+      "google": "XXXX",
+      "plausible": "lydde.com"
+    },
+    "keywords": [
+      "digital consulting",
+      "business solutions",
+      "technology consulting"
+    ],
+    "structuredData": {
+      "type": "Organization",
+      "sameAs": [
+        "https://linkedin.com/company/lydde",
+        "https://twitter.com/lydde"
+      ]
+    },
+    "openGraph": {
+      "image": "/assets/og-image.jpg",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@lydde"
+    }
+  },
+  "repository": {
+    "github": "94de2b7894a1c4d6b6905d472581c7",
+    "branch": "main",
+    "buildCommand": "bundle exec jekyll build"
+  },
+  "environments": {
+    "production": {
+      "url": "https://lydde.com",
+      "buildCommand": "JEKYLL_ENV=production bundle exec jekyll build",
+      "deployBranch": "main"
+    },
+    "staging": {
+      "url": "https://staging.lydde.com",
+      "buildCommand": "JEKYLL_ENV=staging bundle exec jekyll build",
+      "deployBranch": "develop"
+    },
+    "development": {
+      "url": "http://localhost:4000",
+      "buildCommand": "bundle exec jekyll serve --livereload",
+      "deployBranch": null
+    }
+  }
 }
