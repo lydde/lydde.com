@@ -1,5 +1,6 @@
 ---
 layout: null
+permalink: "/.well-known/did.json"
 ---
 {
   "id": "did:web:lydde.com",
